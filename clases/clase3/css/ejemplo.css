@@ -1,0 +1,90 @@
+body {
+    background-color: azure; /* // fondo del body */
+    font-family:'Times New Roman', Times, serif  ;   /*  familia tipografica */
+    /*text-align: center;  alineamos el texto */
+    font-size: 14px ;  /* tamaño tipografico px,em,rem */
+    /* font-style:italic;  *//* estilo de tipografia */
+ /*    font-weight: bold; */ /* peso de la tipografia */
+    text-decoration: none;
+/*     line-height: 40px; */
+
+/* fondos de imagen */
+/* copiar direccion de la imagen
+o describir la ruta de la imagen local */
+background-image: url("https://imgs.search.brave.com/3YbU_AZ2F6bxvimHaF5wkSW8Lc7CUWLYPKLb961KBbY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc0/NjIxMzY3NS9lcy9m/b3RvL2N1Ym8tY29u/ZWN0YWRvLWFic3Ry/YWN0by1xdWUtZXhw/bG90YS1jb24tcGFy/dCVDMyVBRGN1bGFz/LWZvbmRvLWRlLXRl/Y25vbG9nJUMzJUFE/YS1kZS1pbnRlbGln/ZW5jaWEud2VicD9i/PTEmcz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/Q2lVd0I0aWh0bVd4/aWNWckxjV0xHUnky/LVZ0NXdrRTltZEVa/Y3lGRC01Yz0");
+/* background-repeat:no-repeat; */
+/* background-position:right 50% ; */
+background-size: cover;
+
+    }
+
+    a {
+        text-decoration: none;  
+    }
+
+   ul{
+            list-style: none;
+    } 
+/* h1 , p { color : red }  */
+
+
+/* * selector universal */
+
+/* selector 
+
+DECLARACION
+propiedades : valores */
+/*  p {
+    color: red;
+ } */
+
+
+/*  selector etiqueta ej : p , h1
+            id : #
+            clase : . */
+
+/* #segundo{
+    color : blue
+} */
+/* 
+.tercero {
+    color : green 
+}
+
+.cuarto {
+    font-size: 40px ;
+}
+
+a{
+    color :black;
+    text-decoration: none;
+    font-weight: 600
+}
+.itemUno{
+    color: aqua;
+}
+
+#lista .itemUno{
+    color: blueviolet;
+}
+
+.itemUno{
+    color: aqua;
+}
+/* especificidad */ 
+
+
+/* los formatos que se pueden aplicar en cualquier propiedad de css que reciba color */
+
+/* 
+HEXADECIMAL : #F05331
+color (en ingles) : BLUE
+RGB : rgb (240,83,22)
+RGBA : gba (240,83,22,0.3)
+*/
+.colores {
+color: blue;
+opacity: 0.3;/*  atributo que otorga transparencia a todo el elemento */
+background-color:yellow;
+}
+
