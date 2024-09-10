@@ -1,0 +1,22 @@
+
+  .caja {
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+  }
+  
+  #sticky{
+    position: sticky;
+    top: 10px;
+    background: blue;
+  }
+
+  
+  .outer {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    padding-left: 150px;
+  }
+  

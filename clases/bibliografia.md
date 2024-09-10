@@ -38,3 +38,17 @@ Spotify?
 <!-- 14 px en font size -->
 
 https://lenguajecss.com/css/colores/funcion-rgb/
+
+
+<!-- 09-09 -->
+<!-- Expresiones regulares
+validaciones -->
+
+<!-- Crear la secccion Conocenos o cualquier tipo de seccion donde necesitemos un formulario -->
+
+<!-- investigar
+inputs
+y sus atributos 
+ sticky o fixed - barra de navegacion 
+
+-->

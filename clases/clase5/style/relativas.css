@@ -1,0 +1,33 @@
+/* .elementoPadre{
+    width: 300px;
+    background-color: aquamarine;
+}
+
+.elementoHijo{
+    width: 50%  ;
+    background-color: blueviolet;
+}
+ */
+/* en este caso el elemento medirá 150px , es el 50% de ancho de su contenedor padre */
+
+
+
+/* como sabemos que % asignarle a cada elemento */
+
+/* contenedor padre tiene un ancho de 1200px
+
+Ejemplo 3 elemento
+300px - 700px- 200px */
+
+
+/* contenedor padre ancho maximo 1200 */
+/* Ejemplo 3 elemento
+25% - 58,33% - 16,66%  */
+
+/* EMS - em
+RECOMENDADO usar en todo lo relacionado a tipografia
+1em = 16px */
+
+div{
+    font-size: 2em;
+}

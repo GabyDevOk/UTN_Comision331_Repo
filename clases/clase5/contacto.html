@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <!--   inicio logo : ruta RELATIVA -->
+        <a href="paginaEJ.html"><img width="25%" src="./images/logo-utn.png" alt="logo utn"></a>
+    </header>
+    <!--   Atajo :     ul>li*7 -->
+    <ul>
+        <li>LA UNIVERSIDAD</li>
+        <li><a href="https://utn.edu.ar/es/estudiar-utn">ESTUDIAR EN UTN</a></li>
+        <li>INVESTIGACIÓN</li>
+        <li>EXTENSION</li>
+        <li>INTERNACIONALIZACIÒN</li>
+        <li>VIDA ESTUDIANTIL</li>
+        <li>SERVICIOS TECNOLÒGICOS</li>
+        <li><a href="./miSecccion.html">MI SECCION</a></li>
+    </ul>
+
+    <h1>Queremos Saber tu opinion</h1>
+    <form action="">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" required value="Gabriel">
+        </p>
+
+        <p>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad">
+        </p>
+
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </p>
+
+        <p>
+            <label for="lenguaje">Elegi tu lenguaje favorito</label>
+            <select name="lenguaje">
+                <option value="Js">Javascript</option>
+                <option value="Java">Java</option>
+                <option value="Cobol">Cobol</option>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="comentario">Dejanos tu Comentario</label>
+            <textarea name="comentario"></textarea>
+            <!--        cols="40" rows="50" -->
+        </p>
+
+        <p>
+        <p>
+            <label for="imagen">Imagen</label>
+            <input type="file" name="imagen">
+        </p>
+
+        <p>
+        <h4>En que horario podemos contactarte?</h4>
+
+
+        <label for="mañana">Mañana</label>
+        <input type="radio" name="turno" value ="mañana">
+         
+        <label for="mañana">Tarde</label>
+        <input type="radio" name="turno" value ="tarde">
+        
+        <label for="mañana">Noche</label>
+        <input type="radio" name="turno" value ="noche">
+        </p>
+        <p>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" placeholder="Min 5 Caracteres">
+        </p>
+
+        <p>
+            <h4>Hobbies</h4>
+            <label for="Programar">Programar</label>
+            <input type="checkbox" name="hobbies" value="Programar">
+
+            <label for="Programar">Leer</label>
+            <input type="checkbox" name="hobbies" value="Leer" checked>
+
+            <label for="Programar">Deporte</label>
+            <input type="checkbox" name="hobbies" value="Deporte">
+
+        </p>
+
+
+        <label for="condiciones">Aceptar las condiciones</label>
+        <input type="checkbox" name="condiciones">
+        </p>
+        <p>
+            <!--           <input type="submit" value="Enviar"> -->
+            <button type="reset">Resetar</button>
+            <button type="submit">Enviar</button>
+        </p>
+
+
+
+    </form>
+</body>
+
+</html>

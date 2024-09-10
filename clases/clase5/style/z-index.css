@@ -1,0 +1,18 @@
+.fondo {
+    position: relative;
+    top:150px;
+    width:150px ;
+    height:150px ;
+    background-color: aquamarine;
+    z-index: 2;
+}
+
+.frente {
+    position: relative;
+    top:50px;
+    left: 100px;
+    width:150px ;
+    height: 150px;
+    background-color: blueviolet;
+    z-index: 1;
+}

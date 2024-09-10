@@ -1,0 +1,47 @@
+/* relativo */
+
+/* .caja1{
+  background-color: blue;
+  color: aliceblue;
+position: relative; /* la posicion es relativa a su ubicacion original */
+/*   top: 20px ;  */
+/* desplazar el elemento 20 px hacia abajo */
+/*   left: 30px;  */
+/*  desplaza 30 px a la derecha */
+/*   width: 100px; */
+/*   height: 100px;   */
+/* } */
+
+
+/* 
+absoluto */
+
+.contenedor {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: chocolate;
+}
+
+.caja2 {
+    background-color: green;
+    position: absolute;
+    /* se posiciona en relacion al contenedor */
+    top: 50px;
+    /* desplaza 50 px desde la parte superior*/
+    left: 50px;
+    /* desplaza 50px desde la izquierda */
+
+}
+
+/* Fijo */
+
+.fija {
+    background-color: brown;
+    position: fixed;
+    /* fijo respecto a la ventana del navegador */
+    bottom: 0px;
+    right: 25px;
+    width: 100px;
+    height: 100px;
+}
