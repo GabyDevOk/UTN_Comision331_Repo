@@ -1,0 +1,46 @@
+/* contenedor principal */
+
+/* *{
+
+} */
+.contenedor{
+    width: 100%;
+    background-color:antiquewhite;
+    padding:50px;
+/*     border: */
+}
+
+/* caja que flota a la izquierda */
+.caja-izquierda{
+    float: left;
+    background-color: #007bff;
+    width: 30%;
+    padding:20px;
+    margin-right:10px;
+    color:white;
+    box-sizing: border-box;
+}
+
+/* caja que flota a la derecha */
+.caja-derecha{
+float: right;
+width: 30%;
+padding:20px;
+margin-left: 10px;
+background-color: #28a745;
+color: white;
+box-sizing: border-box;
+}
+
+/* texto que se ajusta a los floats */
+.texto{
+    background-color: gray;
+    padding:20px;
+    clear:both;
+    box-sizing: border-box;
+}
+
+
+
+
+
