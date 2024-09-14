@@ -57,3 +57,10 @@ https://developer.mozilla.org/es/docs/Web/CSS/box-sizing -->
 
 <!-- El elemento HTML <aside> representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento. Estas secciones son a menudo representadas como barras laterales o como inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o enlaces a blogs relacionados.
 https://developer.mozilla.org/es/docs/Web/HTML/Element/aside -->
+
+
+<!-- https://developer.mozilla.org/es/docs/Web/CSS/overflow -->
+
+<!-- https://developer.mozilla.org/es/docs/Web/CSS/display -->
+
+<!-- https://developer.mozilla.org/es/docs/Web/CSS/Specificity -->

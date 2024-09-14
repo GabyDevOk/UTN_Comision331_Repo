@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+/*     color: white; */
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 10px 15px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* CABECERA - MENU */
+header {
+    width: 1140px;
+    background-color: #8c96a0; 
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom:20px;
+    overflow: hidden;
+}
+
+header img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav{
+    padding-top: 10px;
+}
+
+nav .menu{
+    float: left;
+}
+
+nav .ingreso{
+    float: right;
+}
+
+/*oferta*/
+
+.oferta{
+    width: 800px;
+    background-color:#d1d8df ;
+    overflow: hidden;
+    float: left;
+}
+
+.curso{
+    width: 380px;
+    margin: 10px 10px 20px 10px;
+    float:left
+}
+
+.curso img{
+    width: 100%;
+    height:250px;
+}
+
+.curso h2{
+    margin:10px 0;
+}
+
+.curso a{
+    background-color:  #8c96a0;
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* cursos extras */
+aside {
+    width :320px;
+    float:right
+}
+
+aside h2 {
+    background-color: #8c96a0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #6191c1;
+    margin-top: 10px;
+}
+
+aside article{
+    background-color:#d1d8df;
+    border: 5px solid #6191c1;
+    border-bottom: 0;
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+/* aside article:last-child{
+    border: 5px solid #c61556;
+} */  /* ESPECIFICIDAD */
+ 
+aside article img {
+    float: left;
+}
+
+aside article p {
+    float: left;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside .anuncios {
+    background-color: #d1d8df;
+    padding: 10px;
+}
+
+aside .anuncios img:last-child {
+    margin-top: 20px;
+}
+/* main    1140
+section 800
+aside   320
+1120
+ */
