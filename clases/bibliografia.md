@@ -64,3 +64,13 @@ https://developer.mozilla.org/es/docs/Web/HTML/Element/aside -->
 <!-- https://developer.mozilla.org/es/docs/Web/CSS/display -->
 
 <!-- https://developer.mozilla.org/es/docs/Web/CSS/Specificity -->
+
+<!-- Aporte de Juan:
+https://chromewebstore.google.com/detail/simulador-m%C3%B3vil-herramien/ckejmhbmlajgoklhgbapkiccekfoccmk?hl=es
+esta extension esta buena para ir viendo como se ve en diferentes dispositivos  las paginas web -->
+
+<!-- ibrahin:
+
+https://flexboxfroggy.com/ -->
+
+<!-- https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ una guia interactiva de flexbox -->

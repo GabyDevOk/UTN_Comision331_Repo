@@ -1,0 +1,21 @@
+
+.caja{
+    width: 100%;
+    padding: 20px;
+    background-color: #007bff;
+    color:white
+}
+
+/* estilos para pantallas mayores a 600px */
+
+@media (min-width: 600px){
+.caja{
+    background-color: #28a745;
+}
+}
+/* estilos para pantallas mayores a 1000px */
+@media (min-width: 1000px){
+    .caja{
+        background-color: #ffc107;
+    }
+    }

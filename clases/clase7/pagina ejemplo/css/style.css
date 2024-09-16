@@ -1,0 +1,50 @@
+/* Estilos generales para todo el sitio */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color : #333
+}
+
+/* Estilo para el encabezado */
+
+header{
+    background-color:#333;
+    color: #f4f4f4;
+    padding:20px;
+    text-align: center;
+}
+
+/* Contenedor principal de los productos */
+
+
+/* contenedor padre (flex-container) */
+.contenedor-productos{
+    display:flex; /* utilizamos flexbox para organizar los productos */
+    flex-wrap: wrap;/* Permite que los productos se organicen en varias filas */
+    justify-content: space-between;/*  espacio uniforme entre productos */
+    padding: 20px;
+}
+
+.producto {
+    background-color: white;
+    width:  30%; /*cada producto ocupa un 30% del ancho del contenedor (tres productos por fila) */
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(223, 23, 23);      /*      añadir una sombra sutil */
+     box-sizing: border-box; /* incluimos padding en el ancho total
+      */
+}
+
+
+
+
+
+
+
+/* contenedor hijos (flex-items) */
+
+/* Cada caja de producto individual */
+

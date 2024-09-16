@@ -1,0 +1,68 @@
+nav ul li {
+    display :inline-block;
+    padding-right: 10px;
+    background-color: aquamarine;
+/*     disposicion */
+
+}
+
+a {
+    text-decoration: none;
+/*     text-transform: uppercase; */
+
+}
+
+section {
+    width: 80%;
+   /*  border: 1px solid red; */
+    margin:10px auto;
+}
+
+section article {
+    width: 100%; 
+/*     border: 1px solid blue; */
+}
+
+section article img {
+    width: 100%; 
+}
+
+/* medias queries */
+@media (min-width:320px){
+    body {
+        background-color:azure;
+    }
+
+    section article {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        float:left
+    }
+    section {
+        overflow: hidden;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width:1024px){
+    section article {
+        width: 22%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    nav{
+        text-align: right;
+    }
+
+    body {
+        background-color: bisque;
+    }
+
+}
