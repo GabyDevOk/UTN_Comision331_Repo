@@ -1,0 +1,86 @@
+h1:hover {
+  color: red;
+  cursor: pointer;
+}
+h1 {
+  background-color: red;
+}
+
+.padre {
+  height: 50%;
+  width: 50%;
+  background-color: blue;
+  margin: 10px;
+}
+
+.hijo {
+  height: 100px;
+  width: 99px;
+  background-color: aqua;
+  border: solid 1px black;
+  float: left;
+}
+
+.hijo2 {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+
+  border: solid 5px black;
+  box-sizing: border-box;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  width: 12%;
+  float: left;
+  font-size: 13px;
+  background-color: gray;
+  margin: 2px;
+  text-align: center;
+}
+
+.seccion {
+  padding-left: 20%;
+  padding-right: 20%;
+  width: 60;
+  background-color: #e6e7e8;
+}
+
+.elementoInterno {
+  width: 32%;
+  float: left;
+  height: 300px;
+  background-color: #00d084;
+}
+
+.servicios {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5%;
+  padding-top: 20px;
+}
+
+.servicio {
+  width: 30%;
+  height: 125px;
+  float: left;
+  background-color: #0274be;
+}
+
+.servicio:hover {
+  cursor: pointer;
+}
+
+p {
+  margin-top: 55px;
+  float: inherit;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
