@@ -74,3 +74,5 @@ esta extension esta buena para ir viendo como se ve en diferentes dispositivos  
 https://flexboxfroggy.com/ -->
 
 <!-- https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ una guia interactiva de flexbox -->
+
+https://developer.mozilla.org/es/docs/Web/CSS/grid-template-rows

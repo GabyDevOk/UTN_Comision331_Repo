@@ -1,0 +1,16 @@
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /*  3 columnas iguales */
+    gap: 10px; /* define el espacio entre los elementos de la rejilla */
+    padding: 20px;
+    background-color: #f8f9fa;
+    
+
+}
+
+.grid-item{
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

@@ -38,6 +38,58 @@ header{
       */
 }
 
+/* imagen */
+.producto img{
+    max-width: 100%; /* la imagen ocupa el 100% del contenedor */
+    height: auto; /* mantiene la proporcion de la imagen */
+}
+
+/* titulo del producto */
+
+.producto h3{
+    font-size: 1.2rem;
+    margin:10px 0;
+}
+
+/* precio del producto */
+
+.producto p {
+    font-size: 1rem;
+    color: #4caf50;
+}
+
+/* boton de compra */
+.producto button {
+    background-color:#4caf50 ;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* media query para pantallas medianas (tablets) */
+
+@media (max-width: 768px){
+    .producto {
+        width: 45%;/*  2 productos por fila en pantallas medianas */
+    }
+}
+
+
+/* media query para pantallas pequeñas (moviles) */
+@media (max-width: 480px){
+    .producto {
+        width: 100%;/*  1 productos por fila en pantallas pequeñas*/
+    }
+    header {
+        padding :15px /* ajustamos el padding del encabezado en moviles */
+    }
+    .contenedor-productos {
+        padding : 10px /*menos padding en dispositivos pequeños */
+    }
+}
+
+
+
 
 
 

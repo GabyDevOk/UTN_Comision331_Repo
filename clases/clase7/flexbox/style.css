@@ -1,0 +1,16 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px
+}
+
+.items {
+
+    padding: 20px;
+    background-color: #007bff;
+    color: #f8f9fa;
+    text-align: center;
+    border: 1px solid red
+}
