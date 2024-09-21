@@ -1,0 +1,11 @@
+/* .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  *//*  3 columnas iguales */
+  /*   gap: 10px; */ /* define el espacio entre los elementos de la rejilla */
+/* } */
+
+
+.color{
+    background-color: aquamarine;
+    border: 1px solid blueviolet;
+}
