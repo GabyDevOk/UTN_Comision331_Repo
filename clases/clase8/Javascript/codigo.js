@@ -88,8 +88,8 @@ console.log(num1!=num3);  /* distinto */
 console.log(num1!==num3);  /* estrictamente distinto a */
 console.log(num1>num2); /* mayor */
 console.log(num2<num3); /* menor */
-console.log(num1>=num4); /* mayor */
-console.log(num1<=num2); /* mayor */
+console.log(num1>=num4); /* mayor o igual */
+console.log(num1<=num2); /* menor o igual */
 
 
 /* OR     AND */
