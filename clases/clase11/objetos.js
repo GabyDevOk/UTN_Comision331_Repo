@@ -6,8 +6,13 @@ const celular = {
    modelo : "V3",
    stock: true, 
    //metodos
-   encender : ()=> (` celular : ${celular.marca} ${celular.modelo} ENCENDIDO`)
+   encender : function (){
+   return(` celular : ${this.marca} ${this.modelo}  ENCENDIDO`);
+   
+   }
+ /*   encender : ()=> (` celular : ${this.marca} ${celular.modelo} ENCENDIDO`) */
 }
+console.log(celular.encender());
 
 //asignacion de valores
 
