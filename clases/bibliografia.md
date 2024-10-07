@@ -86,3 +86,8 @@ Quokka Statusbar Buttons
  -->
 
 <!--  "falsy"  -->
+
+
+
+<!-- + eventos https://www.w3schools.com/js/js_events_examples.asp */
+ -->
