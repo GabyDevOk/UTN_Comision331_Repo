@@ -95,3 +95,5 @@ Quokka Statusbar Buttons
 <!--  investigar eventos (mousse, teclado) -->
 <!-- 
 investigar clearTimeout y clearInterval -->
+
+<!-- https://developer.mozilla.org/es/docs/Web/CSS/transform -->
