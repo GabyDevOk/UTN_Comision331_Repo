@@ -63,4 +63,44 @@ parrafo.onmouseout =()=>{
 /* eventos del teclado */
 
 const inputName = document.querySelector("#inputName")
+/* keydown , es lanzado cuando una tecla es presionada (hacia abajo), a diferencia del evento keypress,  el evento keydown es lanzado para teclas que producen un caracter y tambien para las que no lo producen */
+/* 
+inputName.onkeydown = (event)=>{
+    console.log(event);
+    alert (`presionaste una tecla ${event.key}`)
 
+}
+ */
+/* 
+inputName.onkeyup = (event)=>{
+    console.log(event);
+    alert (`levantaste la tecla ${event.key}`)
+
+} */
+
+/* TIMERS */
+
+/* setTimeout */
+/* SE  UTILIZA CUANDO QUEREMOS QUE NUESTRO CODIGO SE EJECUTE UNA SOLA VEZ (PASADO UN TIEMPO DETERMINADO) */
+
+/* darAlerta=()=> {
+    alert ("este es mi anuncio")
+}
+
+const delay = 3000
+
+setTimeout(darAlerta,delay) */
+
+/* setInterval 
+se utiliza cuando queremos que nuestro codigo
+se ejecute una y otra vez , pasado un tiempo determinado */
+
+/* const repite = () =>{
+    alert  (`es un anuncio repetido`)
+}
+
+const delay = 3000
+
+setInterval(repite,delay) */
+
+/* investigar clearTimeout y clearInterval */

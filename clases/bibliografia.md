@@ -91,3 +91,7 @@ Quokka Statusbar Buttons
 
 <!-- + eventos https://www.w3schools.com/js/js_events_examples.asp */
  -->
+
+<!--  investigar eventos (mousse, teclado) -->
+<!-- 
+investigar clearTimeout y clearInterval -->
