@@ -97,3 +97,38 @@ Quokka Statusbar Buttons
 investigar clearTimeout y clearInterval -->
 
 <!-- https://developer.mozilla.org/es/docs/Web/CSS/transform -->
+
+
+<!-- 
+CLIENTE    SERVIDOR     
+REQUEST - RESPONSE
+HTTP
+
+GET: Pido los posteos - le pido al servidor de me envie info
+POST : Envio un posteo - envio informacion al servidor
+PUT :Actualizo el posteo - envio informacion a un registro ya existente 
+DELETE : elimino un posteo --  elimino un registro
+ -->
+
+ https://www.facebook.com
+ get
+ post
+ put
+ delete
+
+  https://www.tienda.com
+get
+
+https://www.tienda.com/users/
+ get
+ post
+ put
+ delete
+
+
+<!--  JSON -->
+
+
+<!-- APIS -->
+
+<!-- ASINCRONIA -->
