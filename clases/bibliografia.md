@@ -145,3 +145,24 @@ https://www.themoviedb.org/settings/api
 
 https://api.themoviedb.org/3/movie/popular?api_key=73b96ddc25658ad17c90440e7f61bd67&language=es-MX&page=1 
 -->
+
+
+instalamos modulos de terceros
+npm i nombredelmodulo
+
+.gitignore 
+ignoramos la carpeta de node_modules
+
+npm i traemos las dependencias que se encuentran en el package.json
+
+
+NPM
+gestor de node node package manager
+
+npm init -y
+
+
+ "type" :"module"
+
+
+ npm i nodemon -g
