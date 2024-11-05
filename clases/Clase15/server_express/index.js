@@ -40,7 +40,9 @@ console.log(`server ok en el puerto ${port}`)
 
 /* CRUD  */
 
-/* CREATE- POST
+/* 
+CREATE- POST
 READ - GET 
 UPDATE - PUT
-DELETE - DELETE */
+DELETE - DELETE 
+*/
