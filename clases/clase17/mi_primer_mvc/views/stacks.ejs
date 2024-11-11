@@ -1,0 +1,13 @@
+<%- include('template/head', {titulo: titulo }); %>
+
+    <h1 class="text-danger">
+        <%= h1 %>
+    </h1>
+    <div class="row">
+        <% tecnologias.map(tecnologia=>{ %>
+            <div class="col-4">
+                <%- include('template/card',{tecnologia: tecnologia} ); %>
+            </div>
+            <% }) %>
+    </div>
+    <%- include('template/footer', {year: year }); %>
