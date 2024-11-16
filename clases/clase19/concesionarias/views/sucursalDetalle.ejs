@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include("partials/head")%>
+
+<body>
+
+    <h1> Te damos la bienvenida a la sucursal : <%=nombreSucursal%></h1>
+    <h2>te invitamos a conocer todas nuestras <a href="/sucursales">SUCURSALES</a></h2>
+
+    <h3><%=direccionSucursal%></h3>
+    <h3><%=telefonoSucursal%></h3>
+    <h3>La cantidad de autos de esta sucursal es : <%=cantidadAutos%></h3>
+
+<div>
+    <% autosArray.forEach(auto=>{%>
+        <h4><%=auto.marca%></h4>
+        <h4><%=auto.modelo%></h4>
+        <h4><%=auto.anio%></h4>
+        <h4><%=auto.color%></h4>
+
+        <div>
+            <img src="<%=auto.img%>" alt="<%=auto.modelo%>" style="width: 25%;">
+        </div>
+        <% })%>
+</div>
+   
+</body>
+</html>

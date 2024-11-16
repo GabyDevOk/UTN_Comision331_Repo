@@ -11,7 +11,8 @@ const port = 3000
 const app = express()
 
 //importar las rutas de los diferentes modulos para modularizar nuestra aplicacion
-const mainRouter = require ("./routes/mainRoutes.js") // Rutas Principales como la pagina de inicio
+const mainRouter = require ("./routes/mainRouter.js") // Rutas Principales como la pagina de inicio
+const sucursalesRouter = require ("./routes/sucursalesRouter.js")
 /* sucursalesRouter
 marcasRouter
 autosRuter */
@@ -27,9 +28,9 @@ app.use (express.static(path.join(__dirname,"public")))
 // Definimos las rutas para diferentes funcionalidades de la aplicacion
 
 app.use ("/",mainRouter); // rutas principales asociados a la raiz
-
+app.use ("/sucursales",sucursalesRouter) // rutas para sucursales
 /* 
-/sucursales
+
 /marcas
 /autos */
 
