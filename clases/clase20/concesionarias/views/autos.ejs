@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%-include("partials/head")%>
+
+<body>
+
+    <%autos.forEach(auto=>{%>
+<p>
+    Marca : <a href="/autos/<%=auto.marca%>"><%=auto.marca%></a>
+</p>
+<p>
+    Modelo : <%=auto.modelo%></a>
+</p>
+<p>
+    Año :<%=auto.anio%></a>
+</p>
+<p>
+    Color : <%=auto.color%></a>
+</p>
+
+<img src="<%=auto.img%>" alt="<%=auto.modelo%>" style="width: 25%">
+
+        <% })%>
+
+        <h3>Total de autos : <%=autos.length%></h3>
+
+
+</body>
+</html>
