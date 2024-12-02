@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bcrypt</title>
+</head>
+
+<body>
+    <!-- Formulario para encriptar la contraseña -->
+    <form action="/register/encrypt" method="post">
+        <label for="password">Contraseña Original</label>
+        <input type="password" name="password" id="password" required>
+        <br> <br>
+        <button type="submit">Encriptar</button>
+    </form>
+
+    <h1>Comparar Contraseñas</h1>
+
+    <!--  Formulario para comparar contraseñas -->
+    <form action="/register/compare" method="post">
+
+        <label for="comparePassword">Contraseña Original</label>
+        <input type="password" name="comparePassword" id="comparePassword" required>
+        <br> <br>
+        <label for="hashedPassword">Contraseña Encriptada</label>
+        <input type="text" name="hashedPassword" id="hashedPassword">
+        <br> <br>
+        <button type="submit">Comparar</button>
+
+    </form>
+
+    <!-- Mostrar Mensajes -->
+    <% if (message){%>
+        <p>
+            <%=message%>
+        </p>
+        <% }%>
+
+</body>
+
+</html>
