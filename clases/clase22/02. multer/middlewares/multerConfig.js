@@ -8,14 +8,19 @@ const storage = multer.diskStorage({
         //destination: funcion que define donde se guardan los archivos cargados
         //file : contiene informacion sobre el archivo que se está cargando
         //cb : Callback que se usa para indicar el destino
+        console.log(file);
+
         cb(null, path.join(__dirname, "../uploads")) //carpeta uploads
     },
     filename: function (req, file, cb) {
         //fieldname : funcion que define el nombre con el que se guarda el archivo
         //date.now(): genera una marca de tiempo unica para evitar colisiones de nombres
-        cb(null, file.fieldname + '-' + Date.now()) /* Ejemplo : perfil.jpg-200512022024 */
+        /*    const extension = path.extname(file.originalname) */ //obtengo la extension
+        cb(null, + Date.now() + '-' + file.originalname) /* Ejemplo : perfil.jpg-200512022024 */
     }
 })
+
+
 
 
 // filtrado solo archivos de imagen

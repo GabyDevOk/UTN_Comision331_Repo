@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Archivo</title>
+</head>
+<body>
+    <h1>Subir imagen de perfil</h1>
+
+<!--     formulario con Enctype PARA SUBIR ARCHIVOS -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+<!--         campo para seleccionar un archivo -->
+         <label for="file">Selecciona la imagen</label>
+         <input type="file" name="file" id="file" accept="image/*" required>
+          <br>  <br>
+          <button type="submit">Subir</button>
+
+    </form>
+
+        <!-- Mostrar Mensajes -->
+        <% if (message){%>
+            <p>
+                <%=message%>
+            </p>
+            <% }%>
+    
+    
+</body>
+</html>
