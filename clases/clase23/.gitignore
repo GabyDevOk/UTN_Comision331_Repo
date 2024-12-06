@@ -1,0 +1,30 @@
+# Ignorar la carpeta de módulos de Node
+node_modules/
+
+# Ignorar los archivos de entorno sensibles
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignorar archivos de registro y depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar carpetas de build y de caché
+dist/
+build/
+.cache/
+
+# Ignorar archivos de configuración específicos de sistemas operativos
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# Ignorar los archivos de lock de paquetes (opcional, si no deseas subirlos)
+#package-lock.json
+#yarn.lock
+
+# Ignorar carpetas de pruebas temporales
+coverage/
