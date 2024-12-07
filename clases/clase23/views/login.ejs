@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+    <h1>Iniciar Sesion</h1>
+    <form action="/auth/login" method="post">
+
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password">
+
+        <button type="submit">Iniciar Sesion</button>
+
+        <p>¿NO tenes cuenta? <a href="/auth/register">registrate aqui</a></p>
+
+
+    </form>
+    
+</body>
+</html>

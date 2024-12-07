@@ -13,7 +13,8 @@ exports.register = async (req,res)=>{
         //creamos la persona en la base de datos
         const user = await userModel.create({username,email,password:hashedPassword})
         //Guardar el ID de la persona en la sesion y redirigir
-        req.session.userId = user.userIdres.redirect("/posts")
+        req.session.userId = user.userId
+        res.redirect("/auth/login")
     } catch (error) {
         console.error('Error al registrar usuario:', error); // Imprime el error en la consola para depuración
         res.status(500).json({ message: 'Error al registrar usuario', error: error.message || error });

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posteos</title>
+</head>
+
+<body>
+
+    <h1>Todos los posteos</h1>
+
+    <% if (userId){%>
+        <form action="/posts/create" method="post">
+            <label for="title">Titulo</label>
+            <input type="text" name="title" id="title" required>
+            <br>
+            <label for="content">Contenido</label>
+            <textarea name="content" id="content"></textarea>
+            <br>
+            <button type="submit">Crear</button>
+        </form>
+        <% }%>
+
+            <ul>
+                <%posts.forEach(post=>{%>
+                    <li>
+                        <strong>
+                            <%=post.title%>
+                        </strong> : <%=post.content%>
+                            - por : <%=post.user.username%>
+                                <% if(userId===post.userId){%>
+                                    <form action="/posts/edit" method="post">
+                                        <input type="hidden" name="id" value="<%=post.id%>">
+                                        <input type="text" name="title" value="<%=post.title%>">
+                                        <textarea name="content"><%=post.content%></textarea>
+                                        <button type="submit">Editar</button>
+                                    </form>
+
+                                    <br>
+
+                                    <form action="/posts/delete" method="post">
+                                        <input type="hidden" name="id" value="<%=post.id%>">
+                                        <button type="submit">Eliminar</button>
+                                    </form>
+                                    <% }%>
+                    </li>
+                    <% })%>
+            </ul>
+
+</body>
+
+</html>

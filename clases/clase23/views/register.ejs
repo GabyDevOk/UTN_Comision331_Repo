@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <form action="/auth/register" method="post">
+        <label for="username">Nombre Usuario/a</label>
+        <input type="text" name="username" id="username" required>
+        <br>
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password">
+
+        <button type="submit">Registrarse</button>
+
+        <p>¿Ya tenes cuenta? <a href="/auth/login">Inicia sesion aqui</a></p>
+
+    </form>
+    
+</body>
+</html>

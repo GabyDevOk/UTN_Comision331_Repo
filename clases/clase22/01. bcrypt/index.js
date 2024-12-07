@@ -6,7 +6,7 @@ const port = 3030
 /* const bodyparser = require('body-parser') */
 // Body-parser middleware
 /* app.use(bodyparser.urlencoded({ extended: false })) */ //data de html lo pasamos a un objeto
-/* app.use(bodyparser.json())  */ // parsea data enviado en formato JSON del req.body 
+/* app.use(bodyparser.json())  */ // data de html lo pasamos a un objeto
  // analiza los request
 
  app.use(express.urlencoded({ extended: false }))

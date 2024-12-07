@@ -46,7 +46,8 @@ exports.deletePost = async (req,res)=>{
         await postModel.destroy ({
             where: { id, userId: req.session.userId }
         })
+        res.redirect("/posts")
     } catch (error) {
-        res.status(500).json({ messahe: "error al eliminar post", error })  
+        res.status(500).json({ message: "error al eliminar post", error })  
     }
 };
