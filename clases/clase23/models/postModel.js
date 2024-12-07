@@ -1,4 +1,4 @@
-const sequelize = require ("./data/db.js") // configuracion de la base de datos
+const sequelize = require ("../data/db.js") // configuracion de la base de datos
 const {DataTypes} = require ("sequelize")
 const userModel = require ("./userModel.js")
 
